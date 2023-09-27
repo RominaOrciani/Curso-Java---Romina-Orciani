@@ -1,3 +1,4 @@
 Desarrollo de consigna 2:
 no me va a aparecer en el repositorio el archivo *txt, habiendo hecho el commit, porque cree el documento de manera local y no hice el push, que es lo que me permite subir los cambios al repositorio remoto
 hago la modificacion desde el Git, no lo voy a ver en mi repositorio local, porque no estoy trayendo los cambios de mi repoditorio remoto a mi repositorio local, con el Git Pull.
+hago la modificacion desde la web del ejercicio 7
