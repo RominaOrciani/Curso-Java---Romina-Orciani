@@ -3,3 +3,4 @@ no me va a aparecer en el repositorio el archivo *txt, habiendo hecho el commit,
 hago la modificacion desde el Git, no lo voy a ver en mi repositorio local, porque no estoy trayendo los cambios de mi repoditorio remoto a mi repositorio local, con el Git Pull.
 hago una modificacion desde el archivo local, para luego ver la diferencia en el repositorio, segun la consigna 7
 hago la modificacion desde la web del ejercicio 7
+respuesta al ejercicio 8: cuando quiero hacer el push me surge un conflicto con los dos cambios, entonces habro el archivo en visual studio code, selecciono la accion que quiero hacer(ejecutar los dos cambios), luego hago un push de los cambios, y de esta forma voy a ver ambos cambios en el repositorio local y el remoto por igual.
