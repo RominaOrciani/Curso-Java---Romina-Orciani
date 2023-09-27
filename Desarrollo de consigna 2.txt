@@ -1,1 +1,2 @@
-Desarrollo de consigna 2
+Desarrollo de consigna 2:
+no me va a aparecer en el repositorio el archivo *txt, habiendo hecho el commit, porque cree el documento de manera local y no hice el push, que es lo que me permite subir los cambios al repositorio remoto
