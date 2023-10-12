@@ -1,9 +1,8 @@
 package Ejercicio1;
 
 
-public class Prueba {
+public class Ejercicio1_a {
 
-	
 		char letra;
 		String palabra;
 		int contador=0;
@@ -21,7 +20,7 @@ public class Prueba {
 		
 		
 		public static void main(String[] args) {
-			Prueba clasePrueba = new Prueba();
+			Ejercicio1_a clasePrueba = new Ejercicio1_a();
 			
 			clasePrueba.contarLetra("correr", 'r');
 			
