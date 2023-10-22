@@ -4,8 +4,6 @@ import java.util.Arrays;
 
 public class Ejercicio1 {
 	
-	
-	
 	public void ordenarNumeros(int primerNumero, int segundoNumero, int tercerNumero , char letra) {
 		int[] vectorInicial = {primerNumero,segundoNumero,tercerNumero};
 		if(letra=='A') {

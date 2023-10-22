@@ -38,7 +38,7 @@ public class Ejercicio3 {
         StringBuilder resultado = new StringBuilder();
         
         while ((linea = br.readLine()) != null) {
-            if (condicion.equals("codificacion")) {
+            if (condicion.equals("c")) {
         		 for (int i = 0; i < linea.length(); i++) {
         	            char caracter = linea.charAt(i);
         	            int indice = ALFABETO.indexOf(caracter);
@@ -50,7 +50,7 @@ public class Ejercicio3 {
         	            }
         	        }
             	
-            } else if (condicion.equals("decodificacion")) {
+            } else if (condicion.equals("d")) {
         		for (int i = 0; i < linea.length(); i++) {
     	            char caracter = linea.charAt(i);
     	            int indice = ALFABETO.indexOf(caracter);
@@ -62,7 +62,7 @@ public class Ejercicio3 {
     	            }
     	        }
             } else {
-                throw new IllegalArgumentException("Operación no válida. Use 'codificacion' o 'decodificacion'.");
+                throw new IllegalArgumentException("Operación no válida. Use 'c' o 'd'.");
             }
         }
         Files.writeString(Paths.get(ruta2), resultado);
