@@ -10,6 +10,7 @@ public class EjemploScanner {
 		
 		System.out.println("Ingresa numero inicio");
 		String textoCapturado=obj.nextLine();
+		String textoCapturado2=obj.nextLine();
 		System.out.println("El texto leido por consola:"+textoCapturado);
 
 	}
