@@ -13,5 +13,11 @@ public class Libro extends Obra{
 	public String getAtributos() {
 		return super.getAtributos()+ "\nEl libro tiene "+numeroDePaginas+" paginas.";
 	}
+
+	@Override
+	public void costo() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }

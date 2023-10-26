@@ -1,9 +1,11 @@
 package Clase6.ejemploJerarquiaClases;
 
-public class Obra {
+public abstract class Obra {
 	
 	private String titulo;
 	private String autor;
+	
+	public abstract void costo();
 	
 	public Obra(String titulo, String autor) {
 		this.titulo = titulo;
