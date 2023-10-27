@@ -1,5 +1,6 @@
 package org.curso.calculator;
 
+import static org.junit.Assert.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.After;
@@ -51,7 +52,7 @@ public class CalculadoraTest {
 		
 		double resultadoEsperado = Calculadora.multiplicar(Calculadora.restar(unNumero, otroNumero), multiplicador);
 		
-		assertEquals(resultadoEsperado,600);
+		assertNotEquals(resultadoEsperado,605);
 	}
 	
 	//El resultado de sumar 70 y 40, multiplicado por 25, no da 2700
@@ -65,7 +66,7 @@ public class CalculadoraTest {
 		double resultadoSuma = Calculadora.sumar(unNumero, otroNumero);
 		double resultadoMultiplican = Calculadora.multiplicar(resultadoSuma, multiplicador);
 		
-		assertEquals(resultadoMultiplican,2750);
+		assertNotEquals(resultadoMultiplican,2700);
 	}
 	
 
