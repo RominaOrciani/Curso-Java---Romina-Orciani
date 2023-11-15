@@ -1,6 +1,7 @@
 package Ejericio5Mio;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class Carrito {
@@ -24,8 +25,8 @@ public class Carrito {
 		return items;
 	}
 
-	public void setItems(ArrayList<ItemCarrito> items) {
-		this.items = items;
+	public void setItems(List<ItemCarrito> items) {
+		this.items = (ArrayList<ItemCarrito>) items;
 	}
 
 }
